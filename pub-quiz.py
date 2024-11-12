@@ -14,6 +14,11 @@ quiz_questions = [
         "answer": "B"
     },
     # Learners can add more questions here following the same structure
+    {
+        "question": "Which planet is known as the Red Planet?",
+        "options": ["A) Earth", "B) Mars", "C) Jupiter", "D) Venus"],
+        "answer": "B"
+    },
 ]
 
 # Loop through each question
