@@ -30,6 +30,9 @@ quiz_questions = [
     },
 ]
 
+user_points = 0
+total_points = len(quiz_questions) * 10
+
 # Loop through each question
 for question in quiz_questions:
     # Display the question and options
@@ -43,8 +46,10 @@ for question in quiz_questions:
     # Check if the answer is correct
     if user_answer == question["answer"]:
         print("Correct!")
+        user_points += 10
     else:
         print(f"Wrong! The correct answer was {question['answer']}.")
-
+    print("You currently have " + str(user_points) + " points")
 # Goodbye message
 print("Thanks for playing the Pub Quiz!")
+print("You scored " + str(user_points) + "/" + str(total_points) + " points")
