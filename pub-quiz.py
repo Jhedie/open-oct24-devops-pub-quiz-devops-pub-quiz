@@ -7,41 +7,41 @@ quiz_questions = [
         "question": "What is the tallest mountain in the world?",
         "options": ["A) K2", "B) Kangchenjunga", "C) Mount Everest", "D) Lhotse"],
         "answer": "C",
-        "type" : "multiple_choice"
+        "type" : "multiple-choice"
     },
     {
         "question": "Who wrote the play 'Romeo and Juliet'?",
         "options": ["A) William Shakespeare", "B) Charles Dickens", "C) J.K. Rowling", "D) Mark Twain"],
         "answer": "A",
-        "type" : "multiple_choice"
+        "type" : "multiple-choice"
 
     },
     {
         "question": "What is the chemical symbol for gold?",
         "options": ["A) Au", "B) Ag", "C) Pb", "D) Fe"],
         "answer": "A",
-        "type" : "multiple_choice"
+        "type" : "multiple-choice"
 
     },
     {
         "question": "Which country is known as the Land of the Rising Sun?",
         "options": ["A) China", "B) Japan", "C) South Korea", "D) Thailand"],
         "answer": "B",
-        "type" : "multiple_choice"
+        "type" : "multiple-choice"
 
     },
     {
         "question": "What is the largest ocean on Earth?",
         "options": ["A) Atlantic Ocean", "B) Indian Ocean", "C) Arctic Ocean", "D) Pacific Ocean"],
         "answer": "D",
-        "type" : "multiple_choice"
+        "type" : "multiple-choice"
 
     },
     {
         "question": "Can you guess the word from the anagram below?",
         "options": ["weets"],
         "answer": "sweet",
-        "type" : "non-multiple_choice"
+        "type" : "non-multiple-choice"
 
     },
 ]
@@ -57,7 +57,7 @@ for question in quiz_questions:
         print(option)
     
     # Get the user's answer
-    if question["type"] == "multiple_choice":
+    if question["type"] == "multiple-choice":
         user_answer = input("Your answer (A, B, C, D): ").strip().upper() # Ensuring the input is uppercase for comparison
     else:
         user_answer = input("Please enter your answer: ").strip().lower()
