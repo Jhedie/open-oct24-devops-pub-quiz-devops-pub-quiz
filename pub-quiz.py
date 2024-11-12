@@ -4,20 +4,29 @@ print("Welcome to the Pub Quiz!")
 # List of questions, options, and answers
 quiz_questions = [
     {
-        "question": "What is the capital of France?",
-        "options": ["A) London", "B) Paris", "C) Berlin", "D) Madrid"],
+        "question": "What is the tallest mountain in the world?",
+        "options": ["A) K2", "B) Kangchenjunga", "C) Mount Everest", "D) Lhotse"],
+        "answer": "C"
+    },
+    {
+        "question": "Who wrote the play 'Romeo and Juliet'?",
+        "options": ["A) William Shakespeare", "B) Charles Dickens", "C) J.K. Rowling", "D) Mark Twain"],
+        "answer": "A"
+    },
+    {
+        "question": "What is the chemical symbol for gold?",
+        "options": ["A) Au", "B) Ag", "C) Pb", "D) Fe"],
+        "answer": "A"
+    },
+    {
+        "question": "Which country is known as the Land of the Rising Sun?",
+        "options": ["A) China", "B) Japan", "C) South Korea", "D) Thailand"],
         "answer": "B"
     },
     {
-        "question": "What is 2 + 2?",
-        "options": ["A) 3", "B) 4", "C) 5", "D) 22"],
-        "answer": "B"
-    },
-    # Learners can add more questions here following the same structure
-    {
-        "question": "Which planet is known as the Red Planet?",
-        "options": ["A) Earth", "B) Mars", "C) Jupiter", "D) Venus"],
-        "answer": "B"
+        "question": "What is the largest ocean on Earth?",
+        "options": ["A) Atlantic Ocean", "B) Indian Ocean", "C) Arctic Ocean", "D) Pacific Ocean"],
+        "answer": "D"
     },
 ]
 
